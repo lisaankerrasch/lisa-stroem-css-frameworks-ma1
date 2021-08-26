@@ -1,18 +1,22 @@
 .footer {
   background: $dark;
-  display: flex;
   color: $light-grey;
-  padding: 1rem 5rem;
-  flex-direction: column;
-  align-items: center;
 
-  @media (min-width: $tablet-width) {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 5rem;
+  &__container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+
+    @media (min-width: $tablet-width) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
 
   &__item {
-    padding: 1em 0;
+    padding: 0.5rem;
   }
 }

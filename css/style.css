@@ -8237,6 +8237,7 @@ h1 {
 
 .nav__link {
   color: #6a6a6a;
+  font-family: "archivo narrow", sans-serif;
   text-decoration: none;
   margin-right: 1rem;
 }
@@ -8282,21 +8283,25 @@ h1 {
 
 .footer {
   background: #f4f3ee;
-  display: flex;
   color: #8d8d8d;
-  padding: 1rem 5rem;
+}
+
+.footer__container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem 0;
 }
 
 @media (min-width: 768px) {
-  .footer {
+  .footer__container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 5rem;
   }
 }
 
 .footer__item {
-  padding: 1em 0;
+  padding: 0.5rem;
 }
