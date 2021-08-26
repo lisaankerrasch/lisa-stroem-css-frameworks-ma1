@@ -1,0 +1,22 @@
+.nav {
+  background: $dark;
+  padding: 0.8rem 2em;
+  text-transform: uppercase;
+
+  &__link {
+    color: $dark-grey;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+
+  &__link--active {
+    color: $primary;
+  }
+}
+
+.logo {
+  color: $darkest !important;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 3rem;
+}

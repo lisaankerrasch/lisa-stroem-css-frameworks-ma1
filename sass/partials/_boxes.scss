@@ -1,0 +1,29 @@
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 264px);
+  margin: 0 auto 12rem;
+  grid-gap: 1.5rem;
+  justify-content: center;
+  max-width: 1170px;
+
+  &__item {
+    border-radius: 10%;
+    border: none;
+    padding-top: 100%;
+    background: $dark;
+    position: relative;
+    box-shadow: 0 6px 12px darken($background-colour, 10);
+
+    &--highlighted {
+      @extend .boxes__item;
+      background: white;
+      border: 3px solid $primary;
+    }
+
+    &--pink {
+      @extend .boxes__item;
+      background: $primary;
+      border: 3px solid $dark;
+    }
+  }
+}
