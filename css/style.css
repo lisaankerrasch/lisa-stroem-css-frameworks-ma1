@@ -8224,20 +8224,21 @@ body {
 h1 {
   font-family: "open sans", sans-serif;
   text-align: center;
-  font-size: 2em;
+  font-size: 2.1em;
   color: #262626;
   margin: 60px auto;
 }
 
 .nav {
   background: #f4f3ee;
-  padding: 0.8rem 2em;
+  padding: 0.8rem 2rem;
   text-transform: uppercase;
 }
 
 .nav__link {
   color: #6a6a6a;
   font-family: "archivo narrow", sans-serif;
+  font-size: 1.1em;
   text-decoration: none;
   margin-right: 1rem;
 }
@@ -8248,7 +8249,7 @@ h1 {
 
 .logo {
   color: #262626 !important;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: bold;
   margin-left: 3rem;
 }
@@ -8303,5 +8304,6 @@ h1 {
 }
 
 .footer__item {
+  font-size: 0.8em;
   padding: 0.5rem;
 }
